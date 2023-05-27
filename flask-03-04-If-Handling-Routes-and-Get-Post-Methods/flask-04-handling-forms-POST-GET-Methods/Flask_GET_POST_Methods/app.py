@@ -18,7 +18,7 @@ def lcm(num1,num2):
 # send two numbers as template variable to the app.py and assign route of no path ('/') 
 @app.route("/")
 def index():
-    return render_template("index.html", methods=["GET"])
+    return render_template("index.html", c
 
 
 
